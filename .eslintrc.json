@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"  // For TypeScript if used
+  ],
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"]
+    // Add other custom rules as desired
+  }
+}
